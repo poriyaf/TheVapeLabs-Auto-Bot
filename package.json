@@ -1,0 +1,33 @@
+{
+    "name": "thevapelabs-auto-bot",
+    "version": "1.0.0",
+    "description": "Automated tapping and mission completion bot for TheVapeLabs airdrop platform",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/airdropinsiders/TheVapeLabs-Auto-Bot.git"
+    },
+    "keywords": [
+      "vapelabs",
+      "airdrop",
+      "automation",
+      "bot",
+      "crypto"
+    ],
+    "author": "Airdrop Insiders",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/airdropinsiders/TheVapeLabs-Auto-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/TheVapeLabs-Auto-Bot#readme",
+    "dependencies": {
+      "axios": "^1.6.5",
+      "blessed": "^0.1.81",
+      "dotenv": "^16.3.1",
+      "https-proxy-agent": "^7.0.2"
+    }
+  }
