@@ -44,17 +44,20 @@ There are two ways to set up your VapeLabs tokens:
 
 #### Option 1: Using tokens.txt file (Recommended)
 
-Create a `tokens.txt` file in the root directory and add one token per line:
+Create a `tokens.txt` file by used command `nano tokens.txt` in the root directory and add one token per line :
 
 ```
 token1_here
 token2_here
 token3_here
 ```
-
+- press ctrl+x 
+- press ctlr+y+enter
 #### Option 2: Using .env file
 
-Create a `.env` file in the root directory and add your tokens:
+Create a `.env` file by used command `nano .env` in the root directory and add your tokens:
+- press ctrl+x 
+- press ctlr+y+enter
 
 ```
 TOKEN_1=your_first_token_here
@@ -64,7 +67,9 @@ TOKEN_3=your_third_token_here
 
 ### Proxy Setup (Optional)
 
-Create a `proxies.txt` file in the root directory and add one proxy per line in the format `ip:port` or `ip:port:username:password`:
+Create a `proxies.txt` file by used command `nano proxies.txt` in the root directory and add one proxy per line in the format `ip:port` or `ip:port:username:password`:
+- press ctrl+x 
+- press ctlr+y+enter
 
 ```
 http://123.45.67.89:8080
@@ -100,4 +105,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Credits
 
-Created by Airdrop Insiders
+thanks to Airdrop Insiders
