@@ -29,18 +29,11 @@ An automated bot for TheVapeLabs airdrop platform that handles battery tapping a
    npm install
    ```
 
-3. Configure your tokens (see Configuration section below)
-
-4. Run the bot:
-   ```bash
-   node index.js
-   ```
-
-## Configuration
+##  3. Configuration your token
 
 ### Token Setup
 
-There are two ways to set up your VapeLabs tokens:
+There are two ways to set up your VapeLabs tokens (option 1 worked well for me):
 
 #### Option 1: Using tokens.txt file (Recommended)
 
@@ -75,6 +68,10 @@ Create a `proxies.txt` file by used command `nano proxies.txt` in the root direc
 http://123.45.67.89:8080
 http://username:password@ip:port
 ```
+4. Run the bot:
+   ```bash
+   node index.js
+   ```
 
 ## Usage
 
